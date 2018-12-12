@@ -20,7 +20,7 @@ pipeline {
         }
         stage ('Docker-Build') {
             steps {
-                    bat 'package docker:build'
+                    bat 'mvn package docker:build'
             }
         }
     }
