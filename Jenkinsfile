@@ -20,7 +20,7 @@ pipeline {
         }
         stage ('Docker-Build') {
             steps {
-                    bat 'cd FSDProjectManager && package docker:build'
+                    bat 'cd projectmanager && package docker:build'
             }
         }
     }
