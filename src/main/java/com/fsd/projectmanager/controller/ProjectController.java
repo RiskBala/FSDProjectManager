@@ -79,7 +79,7 @@ public class ProjectController {
 		try {
 			TaskVO taskRetrived = projectManagerService.getTask(taskId);
 			if(taskRetrived != null) {
-				taskRetrived.setStatus("A");
+				taskRetrived.setStatus("I");
 				projectManagerService.updateTask(taskRetrived);
 			}else {
 				System.out.println("deleteTask: No task available in the task id : " + taskId);
