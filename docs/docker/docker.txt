@@ -1,0 +1,7 @@
+docker run -p 8090:8090 bala-project-manager:latest
+
+docker exec -it <container id> sh
+
+Service: curl http://localhost:8090/tasks
+
+UI Home page: curl http://localhost:4200

@@ -1,0 +1,2 @@
+https://github.com/RiskBala/FSDProjectManager.git
+https://github.com/RiskBala/FSDProjectManagerUI.git
